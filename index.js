@@ -15,7 +15,7 @@ const multerConfig = require('./config/multer');
 
 app.use(require("./routes"));
 
-/*async function uploadFile(){
+async function uploadFile(){
   try{
    const auth = new google.auth.GoogleAuth({
      keyFile:'googledrive.json',
@@ -224,7 +224,7 @@ app.delete("/delete/:id", (req, res) => {
       res.send(result);
     }
   });
-});*/
+});
 //$ heroku logs --tail --app your_app_name
 app.listen(process.env.PORT||3001, () => {
   console.log("rodando na porta 3001");
