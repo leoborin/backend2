@@ -1,0 +1,14 @@
+{
+    "name": "deployversel",
+    "version" : 2,
+    "public" : true,
+    "build" : {
+        "src" : "index.js",
+        "use": "@versel/node"
+    },
+    "routers":
+    {
+        "src": "/(.*)",
+        "dest": "index.js"
+    }
+}
