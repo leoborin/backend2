@@ -3,7 +3,7 @@ const multer = require('multer');
 const multerConfig = require('./config/multer');
 //const express = require("express");
 //const mysql = require("mysql2"); 
-/*
+
 routes.post("/posts2", multer(multerConfig).single('file'), (req, res) => {
      
     const db = mysql.createPool({
@@ -33,7 +33,7 @@ routes.post("/posts2", multer(multerConfig).single('file'), (req, res) => {
 return res.json({ hello: "Rocket" });
 
 });
-*/
+
 routes.get("/test",  (req, res) => {
 
  return res.json({ hello: "Rocket" });
