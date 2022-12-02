@@ -1,14 +1,14 @@
 {
-    "name": "deployversel",
+    "name": "deplou",
     "version" : 2,
     "public" : true,
     "build" : {
-        "src" : "index.js",
+        "src" : "api/index.js",
         "use": "@versel/node"
     },
     "routers":
     {
         "src": "/(.*)",
-        "dest": "index.js"
+        "dest": "api/index.js"
     }
 }
